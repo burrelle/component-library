@@ -1,0 +1,48 @@
+{
+  "name": "@burrelle/flight",
+  "version": "0.0.1",
+  "description": "Personal Design System",
+  "main": "lib/index.js",
+  "scripts": {
+    "format": "prettier --config .prettierrc --color --write \"src/**/*.js\"",
+    "test": "BABEL_ENV=test jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-gravatar": "^2.6.3",
+    "tailwindcss": "^0.7.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/polyfill": "7.0.0",
+    "@babel/preset-env": "7.2.0",
+    "@babel/preset-react": "7.0.0",
+    "@storybook/addon-actions": "^4.1.1",
+    "@storybook/addon-links": "^4.1.1",
+    "@storybook/addons": "^4.1.1",
+    "@storybook/react": "^4.1.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "eslint": "^5.10.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "storybook-readme": "^4.0.2"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js"
+  }
+}
